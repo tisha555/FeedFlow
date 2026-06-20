@@ -81,5 +81,5 @@ The background agent runs a periodic loop:
 ---
 
 <p align="center">
-  Made with Tisha❤️ • Your Feed. Your Way.
+  Made by Tisha❤️ • Your Feed. Your Way.
 </p>
