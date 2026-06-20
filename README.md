@@ -1,7 +1,7 @@
 # 📱 FeedFlow — Your Feed. Your Way.
 
 <p align="center">
-  <img src="./assets/logo.png" width="120" height="120" alt="FeedFlow Logo" style="border-radius: 20px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);" />
+  <img src="./assets/logo.png" width="120" height="120" alt="FeedFlow Logo" style="border-radius: 24px; box-shadow: 0 10px 30px rgba(138, 58, 185, 0.3);" />
 </p>
 
 <p align="center">
@@ -21,6 +21,24 @@
 Most Instagram users have limited control over the content that appears in their feeds. **FeedFlow** bridges this gap by acting on behalf of the user to actively "train" the recommendation algorithm. 
 
 By setting up **Boosted Interests** and **Muted Topics**, FeedFlow runs a local background agent that automatically searches, likes, views, and bookmarks preferred topics, while instantly skipping and flagging unwanted noise.
+
+---
+
+## 🎨 Visual Preview
+
+Here is a preview of the FeedFlow interfaces designed with a premium, glowing dark theme:
+
+### 📈 Core Dashboard & Automation Engine
+The main control room showing personalization relevance graphs, actions executed counter, and real-time console log streams.
+<p align="center">
+  <img src="./assets/dashboard_mockup.png" width="90%" alt="FeedFlow Dashboard Preview" style="border-radius: 12px; border: 1px solid #282846;" />
+</p>
+
+### 🔍 Live Feed Simulator (Feed Explorer)
+The simulated feed showing how the agent filters and likes boosted tags, and blurs/fast-scrolls past muted keywords.
+<p align="center">
+  <img src="./assets/simulator_mockup.png" width="90%" alt="FeedFlow Simulator Preview" style="border-radius: 12px; border: 1px solid #282846;" />
+</p>
 
 ---
 
@@ -52,64 +70,6 @@ By setting up **Boosted Interests** and **Muted Topics**, FeedFlow runs a local 
 
 ---
 
-## 📂 Project Structure
-
-```bash
-FeedFlow/
-├── assets/                    # App assets (Logos, default placeholders)
-│   └── logo.png               # FeedFlow branding logo
-├── src/
-│   ├── components/            # Reusable UI widgets
-│   │   ├── Header.js          # Navigation Brand Bar & theme switcher
-│   │   └── CustomChart.js     # Analytics bar chart component
-│   ├── context/
-│   │   └── AppContext.js      # Global state provider & Automation Simulator loop
-│   └── screens/               # Main Application screens
-│       ├── OnboardingScreen.js # Slideshow explainer carousel
-│       ├── PreferencesScreen.js# Tag weights and keyword filters
-│       ├── ConnectionScreen.js # Mock credentials authentication
-│       ├── DashboardScreen.js  # Stat metrics & Live terminal logs console
-│       ├── FeedExplorerScreen.js# Mock feed with blur filters & auto-likes
-│       └── SettingsScreen.js   # Automation speed controls & sleep cycles
-├── App.js                     # Root entry point & layout router (Sidebar vs. Tab bar)
-├── app.json                   # Expo configurations
-├── package.json               # Dependencies & build scripts
-└── README.md                  # Project documentation
-```
-
----
-
-## ⚡ Quick Start
-
-### 1. Installation
-Clone the repository and install the project dependencies:
-```bash
-git clone https://github.com/yourusername/FeedFlow.git
-cd FeedFlow
-npm install
-```
-
-### 2. Run Locally
-Launch the application locally in Web preview mode:
-```bash
-npm run web
-```
-This opens the development bundle on **`http://localhost:8081`**.
-
-### 3. Build & Export
-Export the static, optimized production assets:
-```bash
-npx expo export --platform web
-```
-The compiled files will be located in the **`dist/`** directory.
-
-### 4. Deploy
-To deploy the compiled project to Vercel:
-```bash
-npx vercel ./dist --prod
-```
-
----
 
 ## 🤖 The Personalization Engine Under the Hood
 
@@ -121,5 +81,5 @@ The background agent runs a periodic loop:
 ---
 
 <p align="center">
-  Made with ❤️ by the FeedFlow Team • Your Feed. Your Way.
+  Made with Tisha❤️ • Your Feed. Your Way.
 </p>
